@@ -679,6 +679,9 @@
   .w-\[100\%\] {
     width: 100%;
   }
+  .w-\[100\] {
+    width: 100;
+  }
   .w-\[100px\] {
     width: 100px;
   }
@@ -1345,6 +1348,41 @@
       top: 600px;
     }
   }
+  .lg\:bottom-\[50px\] {
+    @media (width >= 64rem) {
+      bottom: 50px;
+    }
+  }
+  .lg\:bottom-\[85px\] {
+    @media (width >= 64rem) {
+      bottom: 85px;
+    }
+  }
+  .lg\:bottom-\[120px\] {
+    @media (width >= 64rem) {
+      bottom: 120px;
+    }
+  }
+  .lg\:bottom-\[130px\] {
+    @media (width >= 64rem) {
+      bottom: 130px;
+    }
+  }
+  .lg\:bottom-\[135px\] {
+    @media (width >= 64rem) {
+      bottom: 135px;
+    }
+  }
+  .lg\:bottom-\[140px\] {
+    @media (width >= 64rem) {
+      bottom: 140px;
+    }
+  }
+  .lg\:bottom-\[185px\] {
+    @media (width >= 64rem) {
+      bottom: 185px;
+    }
+  }
   .lg\:left-\[20px\] {
     @media (width >= 64rem) {
       left: 20px;
@@ -1365,14 +1403,49 @@
       left: 140px;
     }
   }
+  .lg\:left-\[160px\] {
+    @media (width >= 64rem) {
+      left: 160px;
+    }
+  }
   .lg\:left-\[180px\] {
     @media (width >= 64rem) {
       left: 180px;
     }
   }
+  .lg\:left-\[200px\] {
+    @media (width >= 64rem) {
+      left: 200px;
+    }
+  }
   .lg\:left-\[220px\] {
     @media (width >= 64rem) {
       left: 220px;
+    }
+  }
+  .lg\:left-\[300px\] {
+    @media (width >= 64rem) {
+      left: 300px;
+    }
+  }
+  .lg\:left-\[315px\] {
+    @media (width >= 64rem) {
+      left: 315px;
+    }
+  }
+  .lg\:left-\[320px\] {
+    @media (width >= 64rem) {
+      left: 320px;
+    }
+  }
+  .lg\:left-\[330px\] {
+    @media (width >= 64rem) {
+      left: 330px;
+    }
+  }
+  .lg\:left-\[375px\] {
+    @media (width >= 64rem) {
+      left: 375px;
     }
   }
   .lg\:mt-\[0px\] {
@@ -1615,6 +1688,16 @@
       width: 60%;
     }
   }
+  .lg\:w-\[60px\] {
+    @media (width >= 64rem) {
+      width: 60px;
+    }
+  }
+  .lg\:w-\[64px\] {
+    @media (width >= 64rem) {
+      width: 64px;
+    }
+  }
   .lg\:w-\[65\%\] {
     @media (width >= 64rem) {
       width: 65%;
@@ -1638,6 +1721,21 @@
   .lg\:w-\[100\%\] {
     @media (width >= 64rem) {
       width: 100%;
+    }
+  }
+  .lg\:w-\[100px\] {
+    @media (width >= 64rem) {
+      width: 100px;
+    }
+  }
+  .lg\:w-\[145px\] {
+    @media (width >= 64rem) {
+      width: 145px;
+    }
+  }
+  .lg\:w-\[165px\] {
+    @media (width >= 64rem) {
+      width: 165px;
     }
   }
   .lg\:w-\[200px\] {
