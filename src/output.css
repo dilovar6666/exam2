@@ -778,6 +778,9 @@
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .items-baseline {
+    align-items: baseline;
+  }
   .items-center {
     align-items: center;
   }
@@ -871,6 +874,9 @@
   .rounded-\[19px\] {
     border-radius: 19px;
   }
+  .rounded-\[20px\] {
+    border-radius: 20px;
+  }
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
@@ -914,6 +920,10 @@
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
+  }
+  .border-4 {
+    border-style: var(--tw-border-style);
+    border-width: 4px;
   }
   .border-l {
     border-left-style: var(--tw-border-style);
@@ -976,6 +986,9 @@
   }
   .bg-\[\#071C3B\] {
     background-color: #071C3B;
+  }
+  .bg-\[\#2096e4\] {
+    background-color: #2096e4;
   }
   .bg-\[\#7696C6\] {
     background-color: #7696C6;
@@ -1111,6 +1124,9 @@
   }
   .py-\[30px\] {
     padding-block: 30px;
+  }
+  .py-\[40px\] {
+    padding-block: 40px;
   }
   .py-\[60px\] {
     padding-block: 60px;
@@ -1328,6 +1344,9 @@
   .text-\[\#ffffff\] {
     color: #ffffff;
   }
+  .text-\[2\] {
+    color: 2;
+  }
   .text-\[20p\] {
     color: 20p;
   }
@@ -1354,6 +1373,9 @@
   }
   .text-white {
     color: var(--color-white);
+  }
+  .no-underline {
+    text-decoration-line: none;
   }
   .underline {
     text-decoration-line: underline;
@@ -1706,6 +1728,11 @@
       height: 800px;
     }
   }
+  .lg\:h-\[900px\] {
+    @media (width >= 64rem) {
+      height: 900px;
+    }
+  }
   .lg\:h-\[1000px\] {
     @media (width >= 64rem) {
       height: 1000px;
@@ -2026,6 +2053,11 @@
       flex-direction: row-reverse;
     }
   }
+  .lg\:flex-nowrap {
+    @media (width >= 64rem) {
+      flex-wrap: nowrap;
+    }
+  }
   .lg\:items-center {
     @media (width >= 64rem) {
       align-items: center;
@@ -2198,6 +2230,11 @@
       padding-top: 0px;
     }
   }
+  .lg\:pt-\[00px\] {
+    @media (width >= 64rem) {
+      padding-top: 00px;
+    }
+  }
   .lg\:pt-\[30px\] {
     @media (width >= 64rem) {
       padding-top: 30px;
@@ -2221,6 +2258,26 @@
   .lg\:pt-\[120px\] {
     @media (width >= 64rem) {
       padding-top: 120px;
+    }
+  }
+  .lg\:pt-\[200px\] {
+    @media (width >= 64rem) {
+      padding-top: 200px;
+    }
+  }
+  .lg\:pt-\[300px\] {
+    @media (width >= 64rem) {
+      padding-top: 300px;
+    }
+  }
+  .lg\:pt-\[400px\] {
+    @media (width >= 64rem) {
+      padding-top: 400px;
+    }
+  }
+  .lg\:pt-\[2000px\] {
+    @media (width >= 64rem) {
+      padding-top: 2000px;
     }
   }
   .lg\:pb-\[20px\] {
