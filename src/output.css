@@ -628,6 +628,9 @@
   .w-\[30\%\] {
     width: 30%;
   }
+  .w-\[30\] {
+    width: 30;
+  }
   .w-\[30px\] {
     width: 30px;
   }
@@ -685,6 +688,9 @@
   .w-\[95\%\] {
     width: 95%;
   }
+  .w-\[95\] {
+    width: 95;
+  }
   .w-\[96\%\] {
     width: 96%;
   }
@@ -700,6 +706,15 @@
   .w-\[100px\] {
     width: 100px;
   }
+  .w-\[110\%\] {
+    width: 110%;
+  }
+  .w-\[120\%\] {
+    width: 120%;
+  }
+  .w-\[150\%\] {
+    width: 150%;
+  }
   .w-\[200px\] {
     width: 200px;
   }
@@ -709,8 +724,17 @@
   .w-\[400px\] {
     width: 400px;
   }
+  .w-\[490px\] {
+    width: 490px;
+  }
   .w-\[500\] {
     width: 500;
+  }
+  .w-\[500px\] {
+    width: 500px;
+  }
+  .w-\[600px\] {
+    width: 600px;
   }
   .w-\[700px\] {
     width: 700px;
@@ -1091,6 +1115,15 @@
   .pr-\[28px\] {
     padding-right: 28px;
   }
+  .pb-\[20px\] {
+    padding-bottom: 20px;
+  }
+  .pb-\[50px\] {
+    padding-bottom: 50px;
+  }
+  .pb-\[90px\] {
+    padding-bottom: 90px;
+  }
   .pl-\[20px\] {
     padding-left: 20px;
   }
@@ -1161,6 +1194,9 @@
   }
   .text-\[17px\] {
     font-size: 17px;
+  }
+  .text-\[18px\] {
+    font-size: 18px;
   }
   .text-\[19px\] {
     font-size: 19px;
@@ -1726,6 +1762,11 @@
       width: 50%;
     }
   }
+  .lg\:w-\[50\] {
+    @media (width >= 64rem) {
+      width: 50;
+    }
+  }
   .lg\:w-\[60\%\] {
     @media (width >= 64rem) {
       width: 60%;
@@ -2073,6 +2114,11 @@
       padding-block: 50px;
     }
   }
+  .lg\:pt-\[0px\] {
+    @media (width >= 64rem) {
+      padding-top: 0px;
+    }
+  }
   .lg\:pt-\[30px\] {
     @media (width >= 64rem) {
       padding-top: 30px;
@@ -2098,6 +2144,11 @@
       padding-bottom: 30px;
     }
   }
+  .lg\:pb-\[40px\] {
+    @media (width >= 64rem) {
+      padding-bottom: 40px;
+    }
+  }
   .lg\:pb-\[50px\] {
     @media (width >= 64rem) {
       padding-bottom: 50px;
@@ -2111,6 +2162,11 @@
   .lg\:pb-\[80px\] {
     @media (width >= 64rem) {
       padding-bottom: 80px;
+    }
+  }
+  .lg\:pb-\[90px\] {
+    @media (width >= 64rem) {
+      padding-bottom: 90px;
     }
   }
   .lg\:pb-\[160px\] {
